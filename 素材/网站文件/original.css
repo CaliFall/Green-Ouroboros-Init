@@ -1,0 +1,179 @@
+/*字体Open Sans,15px,行高30px*/
+/*颜色表：
+主题绿var(--themegreen)：#0cbb00
+暗绿var(--themegreendeep)：#0a9200
+纯绿var(--green)：#00ff00
+白var(--white)：#ffffff
+一度灰var(--gray1)：#a7a7a7
+二度灰var(--gray2)：#3a3a3a
+三度灰var(--gray3)：#171717
+四度灰var(--gray4)：#151515
+黑var(--black)：#090909
+*/
+
+/*未知作用*/
+html {
+    -webkit-font-smoothing: antialiased
+}
+
+/*设置字体*/
+body {
+    font-family: "Open Sans", Sans-serif !important
+}
+
+/*================================*/
+/*论坛界面*/
+#bbpress-forums li.bbp-header,
+#bbpress-forums li.bbp-footer {
+    background: var(--gray3)
+}
+
+#bbpress-forums li.bbp-body {
+    background: var(--gray4)
+}
+
+#bbpress-forums ul.forum {
+    background: none
+}
+
+#bbpress-forums ul.bbp-forums {
+    border-top: none
+}
+
+#bbpress-forums li.bbp-forum-info {
+    position: relative;
+    left: 15px
+}
+
+/*================================*/
+/*板块界面*/
+#bbpress-forums ul.topic {
+    background: var(--gray3);
+}
+
+#bbpress-forums ul.bbp-topics {
+    border-top: none
+}
+
+#bbpress-forums li.bbp-topic-title {
+    position: relative;
+    left: 15px
+}
+
+/*================================*/
+/*话题界面*/
+#bbpress-forums div.bbp-reply-header {
+    background: var(--gray4)
+}
+
+#bbpress-forums div.topic,
+#bbpress-forums div.reply {
+    background: var(--gray4) !important
+}
+
+#bbpress-forums ul.forums {
+    border-top: none
+}
+
+#bbpress-forums ul.forums li.bbp-footer div.bbp-reply-author,
+#bbpress-forums ul.forums li.bbp-footer div.bbp-reply-content {
+    visibility: hidden
+}
+
+#bbpress-forums div.bbp-reply-ip {
+    display: none
+}
+
+/*================================*/
+/*提示*/
+#bbpress-forums div.bbp-template-notice {
+    background: var(--gray3)
+}
+
+#bbpress-forums div.bbp-template-notice li {
+    color: var(--gray1)
+}
+
+#bbpress-forums div.bbp-template-notice {
+    border: 1px solid var(--gray2)
+}
+
+#bbpress-forums div.bbp-pagination-count {
+    font-size: 2px
+}
+
+#bbpress-forums span.bbp-author-name {
+    color: var(--themegreendeep)
+}
+
+#bbpress-forums li.bbp-topic-description a {
+    color: var(--gray)
+}
+
+/*================================*/
+/*固定信息*/
+#bbpress-forums div.bbp-breadcrumb,
+span,
+div.bbp-topic-tags {
+    font-size: 13px
+}
+
+/*================================*/
+/*侧栏小工具*/
+
+/*================================*/
+/*全局统一*/
+#bbpress-forums li.bbp-body li.bbp-forum-freshness,
+#bbpress-forums li.bbp-body li.bbp-topic-freshness {
+    font-size: 13px
+}
+
+#bbpress-forums div.bbp-topic-header,
+#bbpress-forums div.bbp-forum-header,
+#bbpress-forums div.forum {
+    background: var(--gray4)
+}
+
+#bbpress-forums li.bbp-footer {
+    display: none
+}
+
+/*表单*/
+#bbpress-forums select.bbp_dropdown {
+    font-size: 13px
+}
+#bbpress-forums fieldset {
+	border-radius: 5px;
+}
+#bbpress-forums select {
+    border-radius: 5px;
+			position: relative;
+  top: 7px;
+}
+#bbpress-forums input[id="bbp_topic_tags"],
+input[id="bbp_topic_title"]{
+	width:50%;
+	border-radius:5px;
+	position: relative;
+  top: 7px;
+}
+#bbpress-forums div.bbp-template-notice{
+	margin-top: 0px
+}
+#bbpress-forums legend{
+	margin-bottom:0px
+}
+
+/*删除不必要头像*/
+#bbpress-forums li.bbp-forum-description img,
+#bbpress-forums li.bbp-topic-description img,
+#bbpress-forums li.bbp-topic-title img,
+#bbpress-forums li.bbp-forum-freshness img,
+#bbpress-forums li.bbp-topic-freshness img {
+    display: none !important
+}
+
+/*回复区头像*/
+#bbpress-forums ul.bbp-replies img {
+    border: 1px solid var(--white) !important
+}
